@@ -19,16 +19,34 @@
                <a href="/"><h2>folio.</h2></a>
             </div>
             <div class="navbar-nav">
-               <ul class="ul-defaults-none">
+               <ul class="ul-defaults-none main-menu">
                   <li class="nav-item">home</li>
-                  <li class="nav-item">about me</li>
-                  <li class="nav-item">contact</li>
+                  <li class="nav-item" data-open="about">about me</li>
+                  <li class="nav-item" data-open="contact">contact</li>
                </ul>
             </div>
          </nav>
       </header>
-
    </main>
+
+   <div id="about" class="full-site-modal page-block" data-animation="zoomInOut">
+      <header class="modal-header">
+         <h3>ABOUT PAGE</h3>
+         <i class="fas fa-times"></i>
+      </header>
+      <div class="modal-body">
+         <div class="img-wrapper">
+            <img src="/assets/ images/img9.jpeg" alt="Tyler Myers">
+         </div>
+         <h2>Tyler Myers</h2>
+         <p>text 1</p>
+         <p>text 2</p>
+         <div>
+            <div>Email Me:</div>
+            <a href="mailto:tylergusmyers@gmail.com">tylergusmyers@gmail.com</a>
+         </div>
+      </div>
+   </div>
 
    <script src="./js/main.js"></script>
 </body>
