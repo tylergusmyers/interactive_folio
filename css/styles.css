@@ -120,6 +120,10 @@
    line-height: 1.5;
 }
 
+.portfolio-section {
+   /* text-align: left; */
+}
+
 .search-container label {
    align-items: center;
    position: relative;
@@ -183,7 +187,7 @@
 .portfolio-card {
    position: relative;
    margin: 0 1rem 1.85rem;
-   max-width: 255px;
+   width: 255px;
 }
 
 .card-body img {
@@ -243,7 +247,7 @@
    margin-bottom: 0;
 }
 
-.main-menu { display: flex;}
+.main-menu { display: flex; }
 
 .main-menu .nav-item {
    padding: 18px;
